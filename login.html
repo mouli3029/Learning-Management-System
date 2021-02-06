@@ -12,12 +12,14 @@
              <h2 class="card-header">
                 Welcome Back
             </h2>
-            <div class="card-content">
+            <form class="card-content">
                 <div class = "card-content-div">
                   <label>Email</label>
                   <input 
+                  pattern="+.@gmail.com"
+                  title="Should be of email type"
                   class ="card-input-email"
-                   type="email"
+                  type="email"
                    />
                 </div>
                 <div class = "card-content-div">
@@ -25,6 +27,9 @@
                   <input 
                   class ="card-input-password" 
                   type="password"
+                  pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*(\W|_)).{5,}$" 
+                  title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+
                   />
                 </div>
                 <div class="card-content-div">
@@ -35,7 +40,7 @@
                 <p>No Account ? <strong> <a href="signup.html" class="signup-text">Signup</a></strong></p>
                 <p><a href="forgetPass.html" class="signup-text">Forget Password</a></p>
                 </div>
-            </div>   
+            </form>   
 
         </div>
        

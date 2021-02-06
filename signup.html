@@ -8,7 +8,7 @@
       <div class="signup-left">
         <img class="signup-image" src="./images/signup.svg"/>
       </div>
-        <div class="card">
+        <form class="card">
              <h2 class="card-header">
                 Welcome
             </h2>
@@ -16,15 +16,20 @@
                 <div class = "card-content-div">
                   <label>Name</label>
                   <div class="card-name">
-                    <input  
+                  <input  
                     class ="card-input card-first"
                     type="text"
                     placeholder="First"
+                    maxlength="10"
+                    title="First Name must be of atleast 10 characters"
+
                     />
                     <input  
                     class ="card-input card-last"
                     type="text"
                     placeholder="Last"
+                    maxlength="10"
+                    title="Last Name must be of atleast 10 characters"
                     />
                   </div>
                 </div>
@@ -42,6 +47,7 @@
                     <input 
                     class ="card-input"
                     type="number"
+                    maxlength="10"
                     />
                 </div>
                 <div class = "card-content-div">
@@ -49,6 +55,8 @@
                   <input 
                   class ="card-input"
                   type="email"
+                  pattern="+.@gmail.com"
+                  title="Should be of email type"
                   />
                 </div>
                 <div class = "card-content-div">
@@ -56,6 +64,8 @@
                   <input 
                   class ="card-input"
                   type="password"
+                  pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*(\W|_)).{5,}$" 
+                  title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
                   />
                 </div>
                 <div class = "card-content-div">
@@ -63,6 +73,8 @@
                     <input 
                     class ="card-input"
                     type="password"
+                    pattern="(?=.\d)(?=.[a-z])(?=.*[A-Z]).{8,}" 
+                    title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
                     />
                   </div>
                 <div class="card-content-div">
@@ -73,7 +85,7 @@
                 </div>
             </div>
 
-        </div>
+        </form>
        
     </div>
 </body>
