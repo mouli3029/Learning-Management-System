@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-section{
+    margin: 2rem;
+}
+.nav{
+    display: flex;
+    padding: 10px;
+    margin-top: 10px;
+    justify-content:space-between;
+}
+.nav-item-left{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;   
+}
+.nav-link {
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.active{
+    color : #E83A59;
+    text-decoration: underline;
+}
+.nav-link:hover{
+    color : #E83A59;
+    text-decoration: underline dashed;
+}
+
+.head {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    padding: 2rem 0px 0.2rem 0px;
+}
+.content{
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    /* padding: 1rem 0px 0.2rem 0px; */   
+}
+
+.content::selection{
+    color: aliceblue;
+    background-color: #E83A59;
+}
+
+.course-title{
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1000;
+    color: #E83A59;
+    padding: 1rem 0px 1rem 0px;
+}
+.footer{
+   display: flex;
+}
+.button{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    color: #ffffff !important;
+    background-color: #E83A59 !important;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+
+.button > a {
+    text-decoration: none;
+    color: white;
+}
+.successMessage{
+    background-color: green;
+    color: white;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+.hide{
+    display: none;
+}

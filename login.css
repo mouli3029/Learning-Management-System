@@ -1,0 +1,60 @@
+.signin{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.signin-img{
+    height: 500px;
+}
+.card{
+    width: 450px;
+    height: 450px;
+    margin-top: 50px;
+    border: 1px solid #eeeeee;
+    box-shadow: -10px 6px 5px 0px rgba(176,164,176,1) !important;
+    transition: all .3s ease-in-out !important;
+    padding: 10px 40px;
+}
+.card-header{
+    text-align: center;
+}
+.card-content-div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.card-content-div > label{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom:  4px;
+}
+input{
+    width: 100%;
+    padding :  10px 5px;
+}
+.card-btn{
+    background-color: #E83A59;
+    color: white;
+    width: 103%;
+    padding : 10px 5px;
+    border-radius: 20px;
+    font-size: medium;
+    font-family: 'Montserrat', sans-serif;
+}
+.signup-text{
+    text-decoration: none;
+    color: #FF6263;
+}
+.card-btn,
+input
+{
+    outline-style: none;
+}
+@media (max-width:1000px){
+    .signin-div{
+         visibility: hidden;
+        }
+    .card{
+        position: absolute;
+        
+    }
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DBMS Course</title>
+        <link href="../course.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="nav">
+                <ul class="nav-item-left">
+                    <li><img src="../images/logo.png" width="80px" height="40px"/></li>
+                    <li><a class="nav-link" href="../home.html">Home</a></li>
+                    <li><a class="nav-link active" href="../courses.html">Courses</a></li>
+                    <li><a class="nav-link" href="../profile.html">Profile</a></li>
+                </ul>
+            </div>
+            <div class="main-section">
+                <h1 class="course-title">Computer Networking and Security</h1>
+                <div class="syllabus">
+                    <h3 class="head">Syllabus</h3>
+                    <p class="content">
+                        Introduction: Overview of networking using the Internet as an example, networks topologies,
+                        LANs and WANs, OSI reference model, Internet TCP/IP Protocol Stack. Link layer: Link layer services,
+                        error detection and correction, Sliding Window, Stop and Wait protocols. MAC Layer: Aloha, CSMA,
+                        CSMA/CD, CSMA/CA protocols. Network layer: Network layer design issues, Routing algorithms:
+                        Shortest path, Flooding, Distance vector, Link state, Hierarchical, broadcast and multicast routing,
+                        congestion control algorithms, QoS. Internetworking, IPv4, Network Address Translation, ARP, OSPF,
+                        BGP Transport layer: Elements of Transmission protocols, UDP, TCP. Application layer: WWW, HTTP,
+                        electronic mail, Domain Name System Network Security: Introduction to Security: Security Concepts,
+                        Security Attacks, Security Services and Mechanisms, A Security Model, Classical Encryption Techniques:
+                        Symmetric Cipher Model, Substitution Techniques, Transposition Techniques, Overview on DES,
+                        Asymmetric Encryption Algorithm-RSA
+
+                    </p>
+                </div>
+                <div class="preferred-tb">
+                    <h1 class="head">TextBooks</h1>
+                    <p class="content">
+                        1. Kurose, J and Ross, K Computer Networking: A Top-Down Approach AddisonWesley- 6th edition-(2012). 2.A.S. Tanenbaum, David J. Wetheral “Computer Networks” Pearson, 5th –
+                        Edition-(2011). 3. Behrouz A. Forouzan , “Data Communication and Networking”, TMH, 5th Edition ,
+                        (2012). 4.William Stallings, “Cryptography and Network Security”, Pearson Education, 6th Edition, 2015.
+                        5.Peterson, LL and Davie BS “Computer Networks -- A Systems Approach”, Morgan
+                        Kaufmann,Elsevier,-5th edition-(2012).                        
+                    </p>
+                </div>
+                <div class="objective">
+                    <h3 class="head">Objective</h3>
+                    <p class="content">
+                        This course provides students an overview of the concepts and fundamentals of
+                        computer networks. Internet is a computer network that millions of people use every day. This course
+                        examines some of the important concepts related to computer networks like OSI, TCP/IP reference models
+                        for networking protocols. Students learn what happens to the data in the computer before it is prepared for
+                        transmission, how protocols work to transmit the data and how it is received at other computers. Error
+                        control and recovery methods for lost or corrupted data are also investigated. A layered model for computer
+                        communications is thoroughly examined. This course is to make the students understand basic concepts in
+                        Computer Networks & Security and their mathematical models
+                    </p>
+                </div>
+
+            </div>
+            <div class="footer">
+                <button onclick="enrollcns()" class="button">
+                    Enroll in Course 
+                </button>
+            </div>
+           <!-- <div id="successMessage" class="successMessage hide">
+               Success !!
+           </div> -->
+        </div>
+        <script>
+            function enrollcns(){
+               /*  const successMessage = document.querySelector('successMessage')
+                if(successMessage.classList.contains('hide')){
+                    successMessage.classList.remove('hide');
+                    console.log("Mouli")
+                } */
+                window.location = "../courses.html"
+            }
+        </script>
+    </body>
+</html>

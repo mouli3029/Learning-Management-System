@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EP Course</title>
+        <link href="../course.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="nav">
+                <ul class="nav-item-left">
+                    <li><img src="../images/logo.png" width="80px" height="40px"/></li>
+                    <li><a class="nav-link" href="../home.html">Home</a></li>
+                    <li><a class="nav-link active" href="../courses.html">Courses</a></li>
+                    <li><a class="nav-link" href="../profile.html">Profile</a></li>
+                </ul>
+            </div>
+            <div class="main-section">
+                <h1 class="course-title">Enterprise Programming</h1>
+                <div class="syllabus">
+                    <h3 class="head">Syllabus</h3>
+                    <p class="content">
+                        XML: Features, Attributes, Validation, DTD, XSD, XSLT,JDBC:callable Statements, Maven: integration with eclipse, POM.xml,Servlet:
+                        Lifecycle, HTTP Servlet, Servlet Config, Servlet Context, Servlet Collaboration, Session Tracking, CRUD operations, JSP: Scripting elements,
+                        Directive elements, CRUD operations,Hibernate: Architecture, JPA, generator class, Dialects, Mapping, TX Management, HQL, HCQL, CRUD
+                        operations, Spring: Architecture, Dependency Injection, Application Context, annotation based configuration, MVC CRUD operations,Spring Boot:
+                        Dependency Injection, Autowire, Web App using spring boot, Spring Rest
+                    </p>
+                </div>
+                <div class="preferred-tb">
+                    <h1 class="head">TextBooks</h1>
+                    <p class="content">
+                        1. Web Technologies: Concepts, Methodologies, Tools, and Applications,Information Science Reference,4th edition,Arthur Tatnall 2.
+                        Spring and Hibernate,Tata McGraw-Hill Education,2009,Santosh kumar k 3. Beginning Spring Boot 2 Applications and Microservices with the Spring
+                        Framework,Apress,1st edition,K. Siva Prasad Reddy 4. Java Persistence with Hibernate,Manning Publications,2nd edition ,Christian Bauer , Gavin
+                        King , Gary Gregory
+                    </p>
+                </div>
+                <div class="objective">
+                    <h3 class="head">Objective</h3>
+                    <p class="content">
+                        MAKE STUDENT TO KNOW, UNDERSTAND AND APPLY CLIENT SIDE AND SERVER SIDE TECHNOLOGIES TO
+                        DEVELOP WEB BASED AND ENTERPRISE APPLICATIONS
+                    </p>
+                </div>
+
+            </div>
+            <div class="footer">
+                <button onclick="enrollcns()" class="button">
+                    Enroll in Course 
+                </button>
+            </div>
+           <!-- <div id="successMessage" class="successMessage hide">
+               Success !!
+           </div> -->
+        </div>
+        <script>
+            function enrollcns(){
+               /*  const successMessage = document.querySelector('successMessage')
+                if(successMessage.classList.contains('hide')){
+                    successMessage.classList.remove('hide');
+                    console.log("Mouli")
+                } */
+                window.location = "../courses.html"
+            }
+        </script>
+    </body>
+</html>

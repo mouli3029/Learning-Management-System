@@ -1,0 +1,86 @@
+
+.signup{
+    display: flex;
+}
+.signup-div{
+    max-width: 400px;
+}
+.signup-image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.card{
+    width: 450px;
+    margin-top: 50px;
+    border: 1px solid #eeeeee;
+    box-shadow: -10px 6px 5px 0px rgba(176,164,176,1) !important;
+    transition: all .3s ease-in-out !important;
+    padding: 10px 40px ;
+}
+.card-header{
+    text-align: center;
+}
+.card-content-div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.card-content-div > label{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom:  4px;
+}
+.card-input{
+    width: 97%;
+    padding :  10px 5px;
+}
+.card-btn{
+    background-color: #E83A59;
+    color: white;
+    width: 100%;
+    padding : 10px 5px;
+    border-radius: 20px;
+    font-size: medium;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.card-name{
+    display: flex;
+}
+.card-first{
+    margin-right: 10px;
+    width: 50%;
+}
+.card-last{
+    width: 50%;
+
+}
+.signin-text{
+    text-decoration: none;
+    color: #FF6263;
+}
+.successMessage{
+    background-color: green;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.errorMessage{
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.message{
+    color: white;
+}.card-btn,
+input
+{
+    outline-style: none;
+}
+@media (max-width:1000px){
+    .signup{
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DS Course</title>
+        <link href="../course.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="nav">
+                <ul class="nav-item-left">
+                    <li><img src="../images/logo.png" width="80px" height="40px"/></li>
+                    <li><a class="nav-link" href="../home.html">Home</a></li>
+                    <li><a class="nav-link active" href="../courses.html">Courses</a></li>
+                    <li><a class="nav-link" href="../profile.html">Profile</a></li>
+                </ul>
+            </div>
+            <div class="main-section">
+                <h1 class="course-title">Data Science</h1>
+                <div class="syllabus">
+                    <h3 class="head">Syllabus</h3>
+                    <p class="content">
+                        CO1:Understand Data science, Exploratory Data Analysis, Data Extraction, Wrangling- Introduction
+                        to data science, Big Data Overview, State of the Practice of Analytics, Big Data Analytics in Industry Verticals.
+                        Overview of Data Analytics Lifecycle, Discovery, Data Preparation, Model Planning, Model Building,
+                        Communicating Results and Findings, Operationalizing. Data science in a big data world- benefits and uses of
+                        data science, facets of data, Data science process. Data Analytics Process, Exploratory Data Analysis (EDA),
+                        EDA-Quantitative Technique, EDA - Graphical Technique, Data Analytics Conclusion or Predictions. Data
+                        Indexing and Selection, Operating on Data in Pandas, Handling Missing Data, Hierarchical Indexing,
+                        Combining CO2: Visualization and simple metrices: Data Analytics Communication Data Types for Plotting
+                        Data Types and Plotting, Simple Line Plots, Simple Scatter Plots, Visualizing Errors, Density and Contour
+                        Plots, Histograms, Binnings, and Density, Customizing Plot Legends, Customizing Color bars, Multiple
+                        Subplots, Text and Annotation, Customizing Ticks. Probability and Independence-Using independence to find
+                        probabilities, Pairwise and mutual independence, Bernoulli Scheme, Law of total probability. Random
+                        variables-Discrete random variables with infinite number of values, Geometric and Poisson distributions
+                        Aggregation and Grouping, Pivot Tables, Vectorized String Operations, Working with Time Series, HighPerformance Pandas: eval() and query() CO3: Variance, covariance, and correlation-Linear transformations of
+                        random variables, Functions of random variables, Properties of variance- Sum of random variables. Expected
+                        value and variance, Joint probability distribution, Independent random variables, Expected value of product of
+                        independent random variables, Variance of sum of random variables, properties of covariance, Correlation of
+                        two random variables. Continuous random variables-Probability density function (PDF), Cumulative
+                        distribution function (CDF), Transformations of continuous random variables and their PDFs, Independence,
+                        covariance, and correlation of continuous random variables. Financial modeling, volatility measurement,
+                        exponential down weighting, Time stamped event data CO4: Inferential Statistical Analysis- Introduction to
+                        Inference Methods- Introduction to Bayesian- Estimating a Population Proportion with ConfidenceUnderstanding Confidence Intervals- Assumptions for a Single Population Proportion Confidence IntervalInterpretations & Assumptions for Two Population Proportion Intervals- Confidence Intervals for Differences
+                        between Population Parameters. statistical modeling techniques, including linear regression, logistic regression,
+                        generalized linear models, hierarchical and mixed effects (or multilevel) models, and Bayesian inference
+                        techniques. Hypothesis Testing- Setting Up a Test for a Population Proportion- Setting Up a Test of Difference
+                        in Population Proportions, Interview: P-Values, P-Hacking Statistical Analysis for the Database Developer,
+                        Database Progression to Database Regression, Regularization for Database Improvement, Database
+                        Classification using Support Vector Machines
+                    </p>
+                </div>
+                <div class="preferred-tb">
+                    <h1 class="head">TextBooks</h1>
+                    <p class="content">
+                        1. Data science Hand book – Field cady- wiley 2. Statistical inference for data science-Brian
+                        Caffo 3.Introducing Data science by Davy cielen, Arno D.B.Meysmen, Mohamed Ali                        
+                    </p>
+                </div>
+                <div class="objective">
+                    <h3 class="head">Objective</h3>
+                    <p class="content">
+                        The emphasis of the course is on study of data and its type , understanding the data
+                        comparisons by visualization techniques. probability is useful for making decisions about likelihood of events
+                        and its inferences and statistics for data classification, regression, and time series analysis for real time data
+                        processing and industrial live data Solution
+                    </p>
+                </div>
+
+            </div>
+            <div class="footer">
+                <button onclick="enrollcns()" class="button">
+                    Enroll in Course 
+                </button>
+            </div>
+           <!-- <div id="successMessage" class="successMessage hide">
+               Success !!
+           </div> -->
+        </div>
+        <script>
+            function enrollcns(){
+               /*  const successMessage = document.querySelector('successMessage')
+                if(successMessage.classList.contains('hide')){
+                    successMessage.classList.remove('hide');
+                    console.log("Mouli")
+                } */
+                window.location = "../courses.html"
+            }
+        </script>
+    </body>
+</html>

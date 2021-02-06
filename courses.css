@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.contain {
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+    position: relative;
+}
+.nav{
+    display: flex;
+    padding: 10px;
+    margin-top: 10px;
+    justify-content:space-between;
+}
+.nav-item-left{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;   
+}
+.nav-item-right{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between; 
+    
+}
+.nav-link {
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+    font-weight: 500;
+}
+.nav-link-all {
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+    font-weight: 500;
+}
+.nav-link-registered {
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+    font-weight: 500;
+}
+.active{
+    color : #E83A59;
+    text-decoration: underline;
+}
+.nav-link:hover{
+    color : #E83A59;
+    text-decoration: underline dashed;
+}
+.card {
+    box-shadow: -10px 6px 5px 0px rgba(176,164,176,1) !important;
+    transition: all .3s ease-in-out !important;
+  }
+  
+.card:hover {
+    box-shadow: -3px 18px 20px 0px rgba(99,89,99,1) !important;
+}
+.heading {
+    text-align: center;
+    padding: 40px;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+.section-nav-ul{
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2px !important; 
+}
+.button{
+    color: #ffffff !important;
+    background-color: #E83A59 !important;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.button > a {
+    text-decoration: none;
+    color: white;
+}
+.button > a:hover{
+    color: white;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 4;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    font-family: 'Poppins', sans-serif;
+
+    
+}
+.card-container > div{
+    margin: 10px;
+}
+.card-img-top{
+    width: 250px;
+    height: 250px;
+}
+.hide{
+    display: none;
+}
+.tab-all{
+    border: none;
+    background-color: white;
+}
+.tab-registered{
+    border: none;
+    background-color: white;
+}
+.image {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+}

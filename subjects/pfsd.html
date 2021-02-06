@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PFSD Course</title>
+        <link href="../course.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="nav">
+                <ul class="nav-item-left">
+                    <li><img src="../images/logo.png" width="80px" height="40px"/></li>
+                    <li><a class="nav-link" href="../home.html">Home</a></li>
+                    <li><a class="nav-link active" href="../courses.html">Courses</a></li>
+                    <li><a class="nav-link" href="../profile.html">Profile</a></li>
+                </ul>
+            </div>
+            <div class="main-section">
+                <h1 class="course-title">Python FullStack Development</h1>
+                <div class="syllabus">
+                    <h3 class="head">Syllabus</h3>
+                    <p class="content">
+                        PYTHON Attributes, Properties, Methods and there Types. NameSpaces Constructors, OOps
+                        Concepts- Inheritance, Abstraction, Encapsulation, Polymorphism. Collections, Exception Handling. Basic
+                        Modules-DateTime, OS, Random, RE. File Handling. GIT- Git Integration with PYcharm IDE, PyTestsIntroduction, Installation, Integrating pytest to Pycharm IDE, Assertions, running subset of tests from test
+                        suite, Run tests in parallel, fixtures, parameterized tests. Python connectivity with Databases MYSQL,
+                        MongoDB CRUD operations. ======================== Flask Introduction Introduction to Web
+                        Key features and key terms in Web Client-Server Architecture About Flask framework Characteristics of
+                        Flask framework Installation in Virtual Environment Flask application structure Phases in Flask
+                        Application Creation Routing App Settings URL Building HTTP methods Templates Working with Static,
+                        Media Files Request Objects Sending Form Data to Template Advanced Features of Flask Pagination
+                        Database connectivity Sqlite3,MySQL Page Restrictions using decorators Cookies Sessions Handling
+                        Exceptions and Errors Flash Message Working with Mails App Deployment ==============
+                        Introduction Introduction to Web Key features and key terms in Web Client-Server Architecture Features of
+                        Django framework Characteristics of Django framework Installation in Virtual Environment Django
+                        commands Phases in Django Project Creation Create a Project Creation of Apps and their Structure
+                        Working with ADMIN Console Creating Views URL Mapping Template System Working with Models
+                        Page Re-directions Set-up E-Mails Types of Views Form Processing static,media files handling
+                        ==================== Advanced Features of Django Pagination Database connectivity
+                        Sqlite3,MySQL Page Restrictions using decorators Cookies Sessions Caching,Migrations Deployment Free
+                        Web Hosting Domains Arrays LinkedList Stack Queue MinMax Strings Sort Binary Search Recursion
+                    </p>
+                </div>
+                <div class="preferred-tb">
+                    <h1 class="head">TextBooks</h1>
+                    <p class="content">
+                        Python Cookbook, Third Edition, by David Beazley and Brian K. Jones Django for Beginners:
+                        Build Websites with Python and Django
+                    </p>
+                </div>
+                <div class="objective">
+                    <h3 class="head">Objective</h3>
+                    <p class="content">
+                        Developing Web Apps using Python as a server language.
+                    </p>
+                </div>
+
+            </div>
+            <div class="footer">
+                <button onclick="enrollcns()" class="button">
+                    Enroll in Course 
+                </button>
+            </div>
+           <!-- <div id="successMessage" class="successMessage hide">
+               Success !!
+           </div> -->
+        </div>
+        <script>
+            function enrollcns(){
+               /*  const successMessage = document.querySelector('successMessage')
+                if(successMessage.classList.contains('hide')){
+                    successMessage.classList.remove('hide');
+                    console.log("Mouli")
+                } */
+                window.location = "../courses.html"
+            }
+        </script>
+    </body>
+</html>
