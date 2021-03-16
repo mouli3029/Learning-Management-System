@@ -17,6 +17,7 @@
     position: fixed;
     right: 0;
     left: 0ch;
+    z-index: 1;
 }
 .img{
     margin-right: 10px;
@@ -137,4 +138,7 @@
     color: #111111;
     text-decoration: dashed;
     padding:10px 0px;
+}
+.courses{
+    z-index: -1;
 }
