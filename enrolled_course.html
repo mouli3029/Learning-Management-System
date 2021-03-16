@@ -3,28 +3,54 @@
         <title>DBMS course Page</title>
         <link rel="stylesheet" href="./enrolled_course.css"/>
     </head>
-        <div class="nav-breadcrumb">
-            <div class="left">
-                <a class="navbread-link" href="./subjects/dbms.html">Back</a>
+        <body>
+            <div class="nav-breadcrumb">
+                <div class="left">
+                    <a class="navbread-link" href="./subjects/dbms.html">Back</a>
+                </div>
+                <div class="right">
+                    <a class="navbread-link" href="../courses.html">Unenroll from Course</a>
+                </div>
             </div>
-            <div class="right">
-                <a class="navbread-link" href="../courses.html">Unenroll from Course</a>
-            </div>
+            <div class="container">
+                <div class="container-nav">
+                    <p><a class="nav-link link-active" href="#dbmsgen">General</a></p>
+                    <p><a class="nav-link" href="#dbmsco1">CO1</a></p>
+                    <p><a class="nav-link" href="#dbmsco2">CO2</a></p>
+                    <p><a class="nav-link" href="#dbmsco3">CO3</a></p>
+                    <p><a class="nav-link" href="#dbmsco4">CO4</a></p>
+                </div>
+                <hr class="border"></hr>
+                <div id="dbmsgen" class="dbmsgen">
+                    <div class= "row1">
+                        <button onclick="webresource()" class="btn-no">
+                            <h1 id="webr" class="webr"> <span class="rotate">
+                                >
+                            </span> Web Resources</h1>
+                        </button>
+                        <div id="webr-tab" class="webr-tab hide">
+                            <p>File1</p>
+                            <p>File2</p>
+                            <p>File3</p>
+                         </div>
+                    </div>
+                    <div class="row2">
+                        <button onclick="coursehand()" class="btn-no">
+                            <h1 id="cohand" class="cohand"><span class="rotate">
+                                >
+                            </span>Course handout</h1>
+                        </button>
+                        <div id="cohand-tab" class="cohand-tab hide">
+                            <p>File1</p>
+                            <p>File2</p>
+                            <p>File3</p>
+                         </div>
+                    </div>
+                </div>
+        
+            </div>  
+    
         </div>
-        <div class="container">
-            <div class="container-nav">
-                <p><a class="nav-link" href="#dbmsgen">General</a></p>
-                <p><a class="nav-link" href="#dbmsco1">CO1</a></p>
-                <p><a class="nav-link" href="#dbmsco2">CO2</a></p>
-                <p><a class="nav-link" href="#dbmsco3">CO3</a></p>
-                <p><a class="nav-link" href="#dbmsco4">CO4</a></p>
-            </div>
-            <hr class="border"></hr>
-        </div>  
-        <div id="#dbmsgen" style="display: none;">
-            
-        </div>
-
-
-    </div>
+        <script src="./enroll_course.js"></script>
+        </body>
 </html>

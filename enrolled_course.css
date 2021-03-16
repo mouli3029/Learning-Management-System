@@ -29,6 +29,9 @@
     font-weight: 600;
     color: #E83A59;
 }
+.nav-link:hover{
+    text-decoration: #E83A59 underline;
+}
 .navbread-link{
     text-decoration: none;
     padding: 2px;
@@ -43,4 +46,44 @@
 }
 .border{
     border: 1px solid #ddd;
+}
+
+.dbmsgen{
+    margin-left: 10%;
+}
+.webr,
+.cohand{
+    font-size: 1.5rem;
+    color: black;
+}
+.btn-no{
+    border: none;
+    color: #fff;
+    background-color: #fff;
+}
+button{
+    outline: none;
+}
+.active{
+    display: block;
+}
+.hide{
+    display: none;
+}
+.color-text{
+    color: #E83A59;
+    text-decoration: underline;
+}
+.webr-tab{
+    margin-left: 6%;
+}
+.cohand-tab{
+    margin-left: 6%;
+}
+.rotate{
+    font-size: 0.9rem;
+}
+.link-active{
+    text-decoration: underline;
+    color: #F83A59;
 }
