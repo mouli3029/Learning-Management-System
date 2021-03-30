@@ -1,0 +1,273 @@
+<html>
+    <head>
+        <title>DBMS course Page</title>
+        <link rel="stylesheet" href="./enrolled_course.css"/>
+    </head>
+        <body>
+            <div class="nav-breadcrumb">
+                <div class="left">
+                    <a class="navbread-link" href="./subjects/cns.html">Back</a>
+                </div>
+                <div c    lass="right">
+                    <a class="navbread-link" href="../courses.html">Unenroll from Course</a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="container-nav">
+                    <p><a id="nav-linkg" class="nav-link link-active" onclick="openTab(0)" href="#dbmsgen">General</a></p>
+                    <p><a id="nav-link1" class="nav-link" onclick="openTab(1)" href="#dbmsco1">CO1</a></p>
+                    <p><a id="nav-link2" class="nav-link" onclick="openTab(2)" href="#dbmsco2">CO2</a></p>
+                    <p><a id="nav-link3" class="nav-link" onclick="openTab(3)" href="#dbmsco3">CO3</a></p>
+                    <p><a id="nav-link4" class="nav-link" onclick="openTab(4)" href="#dbmsco4">CO4</a></p>
+                </div>
+                <hr class="border"></hr>
+                <div id="dbmsgen" style="display: ;" class="dbmsgen all">
+                    <div class= "row1">
+                        <button onclick="webresource()" class="btn-no">
+                            <h1 id="webr" class="webr"> <span class="rotate">
+                                >
+                            </span> Web Resources</h1>
+                        </button>
+                        <div id="webr-tab" class="webr-tab hide">
+                            <p>File1</p>
+                            <p>File2</p>
+                            <p>File3</p>
+                         </div>
+                    </div>
+                    <hr class="border"></hr>
+                    <div class="row2">
+                        <button onclick="coursehand()" class="btn-no">
+                            <h1 id="cohand" class="cohand"><span class="rotate">
+                                >
+                            </span>Course handout</h1>
+                        </button>
+                        <div id="cohand-tab" class="cohand-tab hide">
+                            <p>File1</p>
+                            <p>File2</p>
+                            <p>File3</p>
+                         </div>
+                    </div>
+                </div>
+                <div id="dbmsco1" class="dbmsco1 all hide">
+                    <h1>CO1</h1>
+                    <div class= "row1">
+                        <button onclick="sessionshow(1,1)" class="btn-no">
+                            <h1 id="session" class="session"> <span class="rotate">
+                                >
+                            </span> Session 1</h1>
+                        </button>
+                        <div id="session-tab11" class="session-tab hide">
+                            <p>File1</p>
+                            <p>File2</p>
+                            <p>File3</p>
+                         </div>
+                    </div>
+                    <hr class="border"></hr>
+                    <div class="row2">
+                        <button onclick="sessionshow(2,1)" class="btn-no">
+                            <h1 id="session" class="session"><span class="rotate">
+                                >
+                            </span>Session 2</h1>
+                        </button>
+                        <div id="session-tab21" class="session-tab hide">
+                            <p>File1</p>
+                            <p>File2</p>
+                            <p>File3</p>
+                         </div>
+                    </div>
+                    <hr class="border"></hr>
+                    <div class="row3">
+                        <button onclick="sessionshow(3,1)" class="btn-no">
+                            <h1 id="session" class="session"><span class="rotate">
+                                >
+                            </span>Session 3</h1>
+                        </button>
+                        <div id="session-tab31" class="session-tab hide">
+                            <p>File1</p>
+                            <p>File2</p>
+                            <p>File3</p>
+                         </div>
+                    </div>
+                    <hr class="border"></hr>
+                    <div class="row4">
+                        <button onclick="sessionshow(4,1)" class="btn-no">
+                            <h1 id="session" class="session"><span class="rotate">
+                                >
+                            </span>Session 4</h1>
+                        </button>
+                        <div id="session-tab41" class="session-tab hide">
+                            <p>File1</p>
+                            <p>File2</p>
+                            <p>File3</p>
+                         </div>
+                    </div>
+                </div>
+                <div id="dbmsco2" class="dbmsco2 all hide">
+                    <h1>CO2</h1>
+                    <div class= "row1">
+                        <button onclick="sessionshow(1,2)" class="btn-no">
+                            <h1 id="session" class="session"> <span class="rotate">
+                                >
+                            </span> Session 1</h1>
+                        </button>
+                        <div id="session-tab12" class="session-tab hide">
+                            <p>File1</p>
+                            <p>File2</p>
+                            <p>File3</p>
+                         </div>
+                    </div>
+                    <hr class="border"></hr>
+                    <div class="row2">
+                        <button onclick="sessionshow(2,2)" class="btn-no">
+                            <h1 id="session" class="session"><span class="rotate">
+                                >
+                            </span>Session 2</h1>
+                        </button>
+                        <div id="session-tab22" class="session-tab hide">
+                            <p>File1</p>
+                            <p>File2</p>
+                            <p>File3</p>
+                         </div>
+                    </div>
+                    <hr class="border"></hr>
+                    <div class="row3">
+                        <button onclick="sessionshow(3,2)" class="btn-no">
+                            <h1 id="session" class="session"><span class="rotate">
+                                >
+                            </span>Session 3</h1>
+                        </button>
+                        <div id="session-tab32" class="session-tab hide">
+                            <p>File1</p>
+                            <p>File2</p>
+                            <p>File3</p>
+                         </div>
+                    </div>
+                    <hr class="border"></hr>
+                    <div class="row4">
+                        <button onclick="sessionshow(4,2)" class="btn-no">
+                            <h1 id="session" class="session"><span class="rotate">
+                                >
+                            </span>Session 4</h1>
+                        </button>
+                        <div id="session-tab42" class="session-tab hide">
+                            <p>File1</p>
+                            <p>File2</p>
+                            <p>File3</p>
+                         </div>
+                    </div>
+                </div>
+                <div id="dbmsco3" class="dbmsco3 all hide">
+                    <h1>CO3</h1>
+                    <div class= "row1">
+                        <button onclick="sessionshow(1,3)" class="btn-no">
+                            <h1 id="session" class="session"> <span class="rotate">
+                                >
+                            </span> Session 1</h1>
+                        </button>
+                        <div id="session-tab13" class="session-tab hide">
+                            <p>File1</p>
+                            <p>File2</p>
+                            <p>File3</p>
+                         </div>
+                    </div>
+                    <hr class="border"></hr>
+                    <div class="row2">
+                        <button onclick="sessionshow(2,3)" class="btn-no">
+                            <h1 id="session" class="session"><span class="rotate">
+                                >
+                            </span>Session 2</h1>
+                        </button>
+                        <div id="session-tab23" class="session-tab hide">
+                            <p>File1</p>
+                            <p>File2</p>
+                            <p>File3</p>
+                         </div>
+                    </div>
+                    <hr class="border"></hr>
+                    <div class="row3">
+                        <button onclick="sessionshow(3,3)" class="btn-no">
+                            <h1 id="session" class="session"><span class="rotate">
+                                >
+                            </span>Session 3</h1>
+                        </button>
+                        <div id="session-tab33" class="session-tab hide">
+                            <p>File1</p>
+                            <p>File2</p>
+                            <p>File3</p>
+                         </div>
+                    </div>
+                    <hr class="border"></hr>
+                    <div class="row4">
+                        <button onclick="sessionshow(4,3)" class="btn-no">
+                            <h1 id="session" class="session"><span class="rotate">
+                                >
+                            </span>Session 4</h1>
+                        </button>
+                        <div id="session-tab43" class="session-tab hide">
+                            <p>File1</p>
+                            <p>File2</p>
+                            <p>File3</p>
+                         </div>
+                    </div>
+                </div>
+                <div id="dbmsco4" class="dbmsco4 all hide">
+                    <h1>CO4</h1>
+                    <div class= "row1">
+                        <button onclick="sessionshow(1,4)" class="btn-no">
+                            <h1 id="session" class="session"> <span class="rotate">
+                                >
+                            </span> Session 1</h1>
+                        </button>
+                        <div id="session-tab14" class="session-tab hide">
+                            <p>File1</p>
+                            <p>File2</p>
+                            <p>File3</p>
+                         </div>
+                    </div>
+                    <hr class="border"></hr>
+                    <div class="row2">
+                        <button onclick="sessionshow(2,4)" class="btn-no">
+                            <h1 id="session" class="session"><span class="rotate">
+                                >
+                            </span>Session 2</h1>
+                        </button>
+                        <div id="session-tab24" class="session-tab hide">
+                            <p>File1</p>
+                            <p>File2</p>
+                            <p>File3</p>
+                         </div>
+                    </div>
+                    <hr class="border"></hr>
+                    <div class="row3">
+                        <button onclick="sessionshow(3,4)" class="btn-no">
+                            <h1 id="session" class="session"><span class="rotate">
+                                >
+                            </span>Session 3</h1>
+                        </button>
+                        <div id="session-tab34" class="session-tab hide">
+                            <p>File1</p>
+                            <p>File2</p>
+                            <p>File3</p>
+                         </div>
+                    </div>
+                    <hr class="border"></hr>
+                    <div class="row4">
+                        <button onclick="sessionshow(4,4)" class="btn-no">
+                            <h1 id="session" class="session"><span class="rotate">
+                                >
+                            </span>Session 4</h1>
+                        </button>
+                        <div id="session-tab44" class="session-tab hide">
+                            <p>File1</p>
+                            <p>File2</p>
+                            <p>File3</p>
+                         </div>
+                    </div>
+                </div>
+               
+            </div>  
+    
+        </div>
+        <script src="./enroll_course.js"></script>
+        </body>
+</html>
