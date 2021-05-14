@@ -1,3 +1,1 @@
-```js
- console.log("Learning Management System");
-```
+### UI Templates for Learning Management System.
